@@ -8,7 +8,7 @@ router.get('/', all);
 router.get('/:id', User);
 router.post('/add', add );
 router.post("/remove/:id", remove);
-router.put("/edit/:id", edit);
+router.put("/edit/:id", edit); 
 
 
 module.exports = router;
