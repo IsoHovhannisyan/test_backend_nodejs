@@ -12,7 +12,7 @@ const cors = require('cors');
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://test-backend-nodejs.vercel.app/'
+    'https://test-react-g3lo.vercel.app',
   ],
   credentials: true
 }));
